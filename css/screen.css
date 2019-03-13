@@ -189,6 +189,40 @@ a:focus {
     color: #1ABAFF;
 }
 
+/* Components: author */
+
+.c-author {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.c-author__image {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+.c-author__name,
+.c-author__meta {
+    margin-bottom: 0;
+}
+
+.c-author__name {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.c-author__meta {
+    font-family: "Inter UI web", "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 4px;
+}
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
